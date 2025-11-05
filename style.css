@@ -21,7 +21,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 2em;
+  font-size: 1,5em;
   margin-bottom: 1em;
 }
 
@@ -50,4 +50,5 @@ audio {
   p {
     font-size: 0.95em;
   }
+
 }
