@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5vh 8vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 1em;
+  text-align: justify;
+  margin-bottom: 2em;
+}
+
+audio {
+  width: 100%;
+  max-width: 400px;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .overlay {
+    padding: 10vh 6vw;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+}
